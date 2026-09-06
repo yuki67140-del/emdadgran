@@ -426,12 +426,14 @@ a {
     font-size: 15px;
     color: #263a33;
     margin: 6px 0;
+    line-height: 1.6;
 }
 
 .project-body p {
     color: var(--muted);
     font-size: 11px;
     min-height: 42px;
+    line-height: 1.7;
 }
 
 .card-link {
@@ -441,6 +443,7 @@ a {
     font-size: 11px;
     font-weight: 700;
 }
+
 
 /* ================= FEATURES ================= */
 
@@ -479,6 +482,84 @@ a {
 .feature p {
     color: var(--muted);
     font-size: 10px;
+    line-height: 1.7;
+}
+
+
+/* ================= PROJECTS + FEATURES ON MOBILE ================= */
+
+@media (max-width: 580px) {
+
+    /* سه کارت کنار هم */
+    .project-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6px;
+    }
+
+    .project-card {
+        border-radius: 8px;
+    }
+
+    .project-image {
+        height: 90px;
+    }
+
+    .project-body {
+        padding: 7px;
+    }
+
+    .tag {
+        font-size: 6px;
+        padding: 1px 5px;
+    }
+
+    .project-body h3 {
+        font-size: 9px;
+        line-height: 1.5;
+        margin: 4px 0;
+    }
+
+    .project-body p {
+        font-size: 7px;
+        line-height: 1.6;
+        min-height: 0;
+    }
+
+    .card-link {
+        font-size: 7px;
+        margin-top: 5px;
+    }
+
+    .project-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+
+    /* سه ویژگی هم کنار هم */
+    .feature-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+    }
+
+    .feature-icon {
+        width: 32px;
+        height: 32px;
+        font-size: 15px;
+        margin-bottom: 6px;
+    }
+
+    .feature h3 {
+        font-size: 8px;
+        line-height: 1.5;
+    }
+
+    .feature p {
+        font-size: 7px;
+        line-height: 1.5;
+    }
 }
 
 
@@ -672,8 +753,9 @@ a {
         border-bottom: 1px solid rgba(255,255,255,.14);
     }
 
+    /* در تبلت دو کارت کنار هم */
     .project-grid {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .about-grid {
@@ -720,10 +802,23 @@ a {
         font-size: 12px;
     }
 
-    .project-grid,
-    .feature-grid,
+    /* فقط این دو بخش تک‌ستونه باشند */
     .contact-grid {
         grid-template-columns: 1fr;
+    }
+
+    /* پروژه‌ها و ویژگی‌ها سه‌تایی کنار هم */
+    .project-grid,
+    .feature-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .project-grid {
+        gap: 6px;
+    }
+
+    .feature-grid {
+        gap: 8px;
     }
 
     .section {
