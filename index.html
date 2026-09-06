@@ -1,262 +1,721 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="با کمک شما، امید ادامه دارد">
-    <title>امدادگران عاشورا  | خیریه نیکوکاری</title>
+
+    <title>درباره ما | موسسه خیریه</title>
+
+    <link rel="stylesheet" href="style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
+
 
 <body>
 
+
+<!-- ================= HEADER ================= -->
+
 <header class="header">
-    <div class="container nav">
-        <a href="#home" class="logo">
-            <img src="./logo.jpg" alt="logo">
-            <span>
-                <strong>امدادگران عاشورا </strong>
-                <small>شعبه همدان </small>
-            </span>
+
+    <div class="container navbar">
+
+        <a href="#" class="logo">
+
+            <div class="logo-mark">
+                <i class="fa-solid fa-leaf"></i>
+            </div>
+
+            <div class="logo-name">
+                <strong>موسسه نیکوکاری</strong>
+                <small>با هم برای فردایی بهتر</small>
+            </div>
+
         </a>
 
-        <button class="menu-btn" id="menuBtn" aria-label="منو">☰</button>
 
-        <nav class="menu" id="menu">
-            <a href="#home">خانه</a>
-            <a href="#about">درباره ما</a>
-            <a href="#projects">فعالیت‌ها</a>
-            <a href="#help">چگونه کمک کنیم؟</a>
-            <a href="#contact">تماس با ما</a>
-            <a href="#donate" class="nav-donate">کمک کنید</a>
+        <nav class="nav">
+
+            <a href="#">خانه</a>
+
+            <a href="#" class="active">درباره ما</a>
+
+            <a href="#">فعالیت‌ها</a>
+
+            <a href="#">پروژه‌ها</a>
+
+            <a href="#">گزارش‌ها</a>
+
+            <a href="#">تماس با ما</a>
+
         </nav>
+
+
+        <a href="#" class="donate-btn">
+            حمایت از ما
+            <i class="fa-solid fa-arrow-left"></i>
+        </a>
+
+
+        <button class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
     </div>
+
 </header>
 
-<main>
 
-    <!-- HERO: این قسمت فقط یک عکس مستطیلی است و متن روی خود عکس قرار گرفته -->
-    <section class="hero container" id="home">
 
-        <div class="hero-banner">
+<!-- ================= PAGE HERO ================= -->
 
-          
-              
-                
-         
-            <div class="hero-photo">
-                <!-- <span>جای عکس اصلی</span> -->
-                             <img src="./GirlWithHeadscarf.png" alt="Girl with floral headscarf">
+<section class="hero">
 
-            </div>
+    <div class="hero-pattern"></div>
 
-            <!-- لایه تیره برای خواناتر شدن نوشته روی عکس -->
-            <div class="hero-overlay"></div>
+    <div class="container hero-content">
 
-            <!-- متن روی عکس -->
-            <div class="hero-content">
-                <span class="eyebrow">هر کمک، یک قدم به سوی امید</span>
+        <div class="breadcrumb">
+            <a href="#">خانه</a>
+            <i class="fa-solid fa-angle-left"></i>
+            <span>درباره ما</span>
+        </div>
 
-                <h1>
-                    با کمک شما، <span>امید</span><br>
-                    ادامه دارد
-                </h1>
 
-                <p>
-                    با حمایت شما می‌توانیم لبخند را به زندگی کودکان و
-                    خانواده‌های نیازمند بازگردانیم.
-                </p>
+        <span class="hero-label">
+            آشنایی با ما
+        </span>
 
-                <div class="hero-buttons">
-                    <a href="#donate" class="btn primary"> همین حالا کمک کنید</a>
-                    <a href="#projects" class="btn secondary">مشاهده فعالیت‌ها</a>
-                </div>
+        <h1>
+            درباره
+            <span>موسسه نیکوکاری</span>
+        </h1>
+
+        <p>
+            ما باور داریم که حتی کوچک‌ترین قدم‌های ما می‌توانند
+            تغییری بزرگ در زندگی انسان‌ها ایجاد کنند.
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= INTRO ================= -->
+
+<section class="about-section">
+
+    <div class="container about-grid">
+
+
+        <div class="about-image">
+
+            <img src="images/about.jpg" alt="فعالیت موسسه خیریه">
+
+            <div class="experience">
+
+                <strong>۱۵+</strong>
+
+                <span>
+                    سال همراهی
+                    <br>
+                    با مردم
+                </span>
+
             </div>
 
         </div>
 
-        <div class="stats">
-            <div class="stat">
-                <strong>۱۲۰۰+</strong>
-                <span>نیکوکار همراه</span>
-            </div>
-            <div class="stat">
-                <strong>۲۵۰+</strong>
-                <span>پروژه موفق</span>
-            </div>
-            <div class="stat">
-                <strong>۵۰۰۰+</strong>
-                <span>خانواده تحت حمایت</span>
-            </div>
-            <div class="stat">
-                <strong>۱۲+</strong>
-                <span>سال فعالیت</span>
-            </div>
-        </div>
-    </section>
 
 
-    <!-- PROJECTS -->
-    <section class="projects section" id="projects">
-        <div class="container">
+        <div class="about-text">
 
-            <div class="section-heading">
-                <span>فعالیت‌های ما</span>
-                <h2>در حال اجرا</h2>
-                <p>با همراهی شما، این طرح‌ها را قدم‌به‌قدم پیش می‌بریم.</p>
-            </div>
+            <span class="eyebrow">
+                درباره موسسه
+            </span>
 
-            <div class="project-grid">
+            <h2>
+                کنار هم،
+                <span>برای ساختن دنیایی بهتر</span>
+            </h2>
 
-                <article class="project-card">
-                    <div class="project-image image-placeholder">
-                        <img src="./GirlStudying.png" alt="Girl studying">
-                    </div>
-                    <div class="project-body">
-                        <span class="tag">کودکان</span>
-                        <h3>حمایت از تحصیل کودکان </h3>
-                        <p>تأمین لوازم آموزشی و حمایت تحصیلی برای کودکان.</p>
-                        <a href="#donate" class="card-link">مشارکت در طرح ←</a>
-                    </div>
-                </article>
+            <p class="lead">
+                موسسه نیکوکاری ما با هدف حمایت از خانواده‌ها،
+                کودکان و افراد نیازمند شکل گرفته است.
+            </p>
 
-                <article class="project-card">
-                    <div class="project-image image-placeholder">
-                        <img src="./FoodAidForFamilies.png" alt="Food aid for families">
-                    </div>
-                    <div class="project-body">
-                        <span class="tag">معیشتی</span>
-                        <h3>پویش بسته‌های معیشتی</h3>
-                        <p>کمک به خانواده‌ها برای تأمین نیازهای ضروری زندگی.</p>
-                        <a href="#donate" class="card-link">مشارکت در طرح ←</a>
-                    </div>
-                </article>
+            <p>
+                فعالیت‌های ما بر پایه همدلی، شفافیت و مسئولیت
+                اجتماعی بنا شده است. تلاش می‌کنیم کمک‌های
+                نیکوکاران را به شکلی هدفمند به دست کسانی برسانیم
+                که بیشترین نیاز را دارند.
+            </p>
 
-                <article class="project-card">
-                    <div class="project-image image-placeholder">
-                        <img src="./MotherAndDaughterReceivingSupport.png" alt="Mother and daughter receiving support">
-                    </div>
-                    <div class="project-body">
-                        <span class="tag">حمایتی</span>
-                        <h3>کمک به خانواده های نیازمند</h3>
-                        <p>همراهی با خانواده‌ها برای عبور از شرایط سخت.</p>
-                        <a href="#donate" class="card-link">مشارکت در طرح ←</a>
-                    </div>
-                </article>
-
-            </div>
-        </div>
-    </section>
+            <p>
+                در این مسیر، همراهی داوطلبان و نیکوکاران مهم‌ترین
+                سرمایه ماست.
+            </p>
 
 
-    <!-- FEATURES -->
-    <section class="features">
-        <div class="container feature-grid">
-
-            <div class="feature">
-                <div class="feature-icon">♧</div>
-                <h3>شفافیت در عملکرد</h3>
-                <p>گزارش فعالیت‌ها و هزینه‌ها با شفافیت در اختیار همراهان قرار می‌گیرد.</p>
-            </div>
-
-            <div class="feature">
-                <div class="feature-icon">♡</div>
-                <h3>اعتماد و همراهی</h3>
-                <p>اعتماد شما سرمایه اصلی ما برای ادامه مسیر است.</p>
-            </div>
-
-            <div class="feature">
-                <div class="feature-icon">✓</div>
-                <h3>کمک هدفمند</h3>
-                <p>کمک‌های شما بر اساس نیازهای واقعی استفاده می‌شوند.</p>
-            </div>
+            <a href="#" class="more-btn">
+                بیشتر درباره ما
+                <i class="fa-solid fa-arrow-left"></i>
+            </a>
 
         </div>
-    </section>
+
+    </div>
+
+</section>
 
 
-    <!-- ABOUT -->
-    <section class="about section" id="about">
-        <div class="container about-grid">
 
-            <div class="about-image image-placeholder">
-                <img src="./VolunteerHelpingChild.jpg" alt="Volunteer helping a child">
+<!-- ================= STATS ================= -->
+
+<section class="stats">
+
+    <div class="container stats-box">
+
+        <div class="stat">
+
+            <div class="stat-icon">
+                <i class="fa-solid fa-calendar-days"></i>
             </div>
-
-            <div class="about-text">
-                <h2>کنار هم، برای ساختن فردایی بهتر</h2>
-                <p>
-                    ما باور داریم حتی کوچک‌ترین کمک می‌تواند شروع یک تغییر بزرگ باشد.
-                    هدف ما ایجاد بستری امن و شفاف برای حمایت از کودکان و خانواده‌های کم‌برخوردار است.
-                </p>
-                <a href="#contact" class="btn primary">بیشتر بدانید</a>
-            </div>
-
-        </div>
-    </section>
-
-
-    <!-- DONATE -->
-    <section class="donate section" id="donate">
-        <div class="container donate-box">
 
             <div>
-                <span class="eyebrow light">همین حالا همراه شو</span>
-                <h2>یک قدم کوچک شما، یک امید بزرگ برای دیگری است.</h2>
-                <p>برای مشارکت در طرح‌های حمایتی با ما در ارتباط باشید.</p>
-            </div>
-
-            <a href="#contact" class="btn white">نحوه کمک کردن</a>
-
-        </div>
-    </section>
-
-
-    <!-- CONTACT -->
-    <section class="contact section" id="contact">
-        <div class="container">
-
-            <div class="section-heading">
-                <span>ارتباط با ما</span>
-                <h2>همراه ما باشید</h2>
-            </div>
-
-            <div class="contact-grid">
-                <div class="contact-card">
-                    <strong>تلفن</strong>
-                    <p>۰۲۱-۱۲۳۴۵۶۷۸</p>
-                </div>
-
-                <div class="contact-card">
-                    <strong>ایمیل</strong>
-                    <p>info@example.ir</p>
-                </div>
-
-                <div class="contact-card">
-                    <strong>آدرس</strong>
-                    <p>همدان، خیابان نمونه، پلاک ۱۰</p>
-                </div>
+                <strong>۱۵+</strong>
+                <span>سال فعالیت</span>
             </div>
 
         </div>
-    </section>
 
-</main>
 
+        <div class="stat">
+
+            <div class="stat-icon">
+                <i class="fa-solid fa-hand-holding-heart"></i>
+            </div>
+
+            <div>
+                <strong>۲۵۰۰+</strong>
+                <span>خانواده تحت حمایت</span>
+            </div>
+
+        </div>
+
+
+        <div class="stat">
+
+            <div class="stat-icon">
+                <i class="fa-solid fa-users"></i>
+            </div>
+
+            <div>
+                <strong>۳۰۰+</strong>
+                <span>داوطلب فعال</span>
+            </div>
+
+        </div>
+
+
+        <div class="stat">
+
+            <div class="stat-icon">
+                <i class="fa-solid fa-seedling"></i>
+            </div>
+
+            <div>
+                <strong>۸۰+</strong>
+                <span>پروژه اجرا شده</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= VALUES ================= -->
+
+<section class="values-section">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>چرا ما؟</span>
+
+            <h2>
+                ارزش‌هایی که به آن‌ها باور داریم
+            </h2>
+
+            <p>
+                تمام فعالیت‌های ما بر پایه چند اصل مهم شکل گرفته است.
+            </p>
+
+        </div>
+
+
+        <div class="value-grid">
+
+
+            <div class="value-card">
+
+                <div class="value-number">
+                    ۰۱
+                </div>
+
+                <div class="value-icon">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+
+                <h3>
+                    همدلی
+                </h3>
+
+                <p>
+                    درد و نیاز دیگران را می‌بینیم و تلاش می‌کنیم
+                    در کنار آن‌ها باشیم.
+                </p>
+
+            </div>
+
+
+
+            <div class="value-card featured">
+
+                <div class="value-number">
+                    ۰۲
+                </div>
+
+                <div class="value-icon">
+                    <i class="fa-solid fa-hand-holding-heart"></i>
+                </div>
+
+                <h3>
+                    مسئولیت‌پذیری
+                </h3>
+
+                <p>
+                    در برابر اعتماد نیکوکاران و جامعه،
+                    خود را مسئول می‌دانیم.
+                </p>
+
+            </div>
+
+
+
+            <div class="value-card">
+
+                <div class="value-number">
+                    ۰۳
+                </div>
+
+                <div class="value-icon">
+                    <i class="fa-solid fa-shield-heart"></i>
+                </div>
+
+                <h3>
+                    شفافیت
+                </h3>
+
+                <p>
+                    تلاش می‌کنیم روند فعالیت‌ها و هزینه‌کرد
+                    کمک‌ها روشن و قابل پیگیری باشد.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= MISSION ================= -->
+
+<section class="mission">
+
+    <div class="container mission-grid">
+
+        <div class="mission-content">
+
+            <span class="eyebrow">
+                مأموریت ما
+            </span>
+
+            <h2>
+                کمک کردن فقط بخشیدن نیست؛
+                <span>ساختن فرصت است.</span>
+            </h2>
+
+            <p>
+                هدف ما این است که حمایت‌های کوتاه‌مدت را به
+                فرصت‌هایی برای ساختن آینده‌ای پایدار تبدیل کنیم.
+            </p>
+
+
+            <div class="check-list">
+
+                <div>
+                    <i class="fa-solid fa-check"></i>
+                    حمایت از خانواده‌های نیازمند
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-check"></i>
+                    حمایت آموزشی از کودکان
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-check"></i>
+                    اجرای پروژه‌های اجتماعی
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="mission-card">
+
+            <i class="fa-solid fa-quote-right"></i>
+
+            <p>
+                «گاهی یک دست کوچک برای کمک،
+                می‌تواند آغاز یک تغییر بزرگ باشد.»
+            </p>
+
+            <span>
+                موسسه نیکوکاری
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= HISTORY ================= -->
+
+<section class="history">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>مسیر ما</span>
+
+            <h2>
+                داستانی که ادامه دارد
+            </h2>
+
+        </div>
+
+
+        <div class="timeline">
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-year">
+                    ۱۳۸۸
+                </div>
+
+                <div class="timeline-line">
+                    <span></span>
+                </div>
+
+                <div class="timeline-content">
+
+                    <h3>
+                        آغاز فعالیت
+                    </h3>
+
+                    <p>
+                        شروع فعالیت موسسه با هدف حمایت
+                        از خانواده‌های نیازمند.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-year">
+                    ۱۳۹۶
+                </div>
+
+                <div class="timeline-line">
+                    <span></span>
+                </div>
+
+                <div class="timeline-content">
+
+                    <h3>
+                        گسترش فعالیت‌ها
+                    </h3>
+
+                    <p>
+                        افزایش تعداد پروژه‌ها و گسترش
+                        جامعه تحت حمایت.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-year">
+                    ۱۴۰۰
+                </div>
+
+                <div class="timeline-line">
+                    <span></span>
+                </div>
+
+                <div class="timeline-content">
+
+                    <h3>
+                        توسعه خدمات
+                    </h3>
+
+                    <p>
+                        راه‌اندازی برنامه‌های آموزشی
+                        و اجتماعی جدید.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-year">
+                    ۱۴۰۴
+                </div>
+
+                <div class="timeline-line">
+                    <span></span>
+                </div>
+
+                <div class="timeline-content">
+
+                    <h3>
+                        ادامه مسیر
+                    </h3>
+
+                    <p>
+                        حرکت به سوی آینده‌ای گسترده‌تر
+                        و تأثیرگذاری بیشتر.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= CTA ================= -->
+
+<section class="cta">
+
+    <div class="container cta-box">
+
+        <div>
+
+            <span>
+                همراه ما باشید
+            </span>
+
+            <h2>
+                یک قدم کوچک،
+                یک تغییر بزرگ
+            </h2>
+
+            <p>
+                با همراهی شما می‌توانیم زندگی افراد بیشتری
+                را تحت تأثیر قرار دهیم.
+            </p>
+
+        </div>
+
+
+        <a href="#" class="cta-btn">
+            حمایت از موسسه
+            <i class="fa-solid fa-arrow-left"></i>
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FOOTER ================= -->
 
 <footer class="footer">
-    <div class="container footer-inner">
-        <div>
-            <strong>امدادگران عاشورا </strong>
-            <p>با هم، برای فردایی بهتر.</p>
+
+    <div class="container footer-grid">
+
+
+        <div class="footer-brand">
+
+            <div class="footer-logo">
+
+                <div class="logo-mark">
+                    <i class="fa-solid fa-leaf"></i>
+                </div>
+
+                <div>
+                    <strong>موسسه نیکوکاری</strong>
+                    <small>با هم برای فردایی بهتر</small>
+                </div>
+
+            </div>
+
+            <p>
+                با همراهی شما، قدمی برای ساختن جامعه‌ای
+                مهربان‌تر و آینده‌ای بهتر برمی‌داریم.
+            </p>
+
+            <div class="socials">
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+            </div>
+
         </div>
-        <p>© <span id="year"></span> تمام حقوق محفوظ است.</p>
+
+
+
+        <div class="footer-column">
+
+            <h3>دسترسی سریع</h3>
+
+            <a href="#">صفحه اصلی</a>
+            <a href="#">درباره ما</a>
+            <a href="#">فعالیت‌ها</a>
+            <a href="#">پروژه‌ها</a>
+            <a href="#">گزارش فعالیت‌ها</a>
+
+        </div>
+
+
+
+        <div class="footer-column">
+
+            <h3>خدمات</h3>
+
+            <a href="#">حمایت مالی</a>
+            <a href="#">عضویت داوطلبانه</a>
+            <a href="#">پروژه‌های خیریه</a>
+            <a href="#">گزارش مالی</a>
+            <a href="#">سوالات متداول</a>
+
+        </div>
+
+
+
+        <div class="footer-contact">
+
+            <h3>ارتباط با ما</h3>
+
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>۰۲۱-۱۲۳۴۵۶۷۸</span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                <span>info@nikookari.ir</span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-location-dot"></i>
+                <span>
+                    تهران، خیابان ولیعصر،
+                    پلاک ۱۲۳
+                </span>
+            </div>
+
+        </div>
+
     </div>
+
+
+    <div class="footer-bottom">
+
+        <div class="container">
+
+            <span>
+                © ۱۴۰۴ تمامی حقوق محفوظ است.
+            </span>
+
+            <span>
+                طراحی و توسعه با ❤️
+            </span>
+
+        </div>
+
+    </div>
+
 </footer>
 
-<script src="script.js"></script>
+
+
+<script>
+
+const menuBtn = document.querySelector(".menu-btn");
+const nav = document.querySelector(".nav");
+
+menuBtn.addEventListener("click", () => {
+    nav.classList.toggle("open");
+});
+
+</script>
+
 </body>
 </html>
